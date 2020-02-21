@@ -18,9 +18,14 @@ section{
 }
 .half-width img{
     width: 90%;
+    transition: transform .5s;
+}
+.half-width img:hover{
+    transform: rotate(360deg);
 }
 h2{
     padding-top: 50px;
+    color: dimgray;
 }
 h1{
     font-size: 50px;
@@ -39,6 +44,10 @@ p{
     font-weight: 700;
     color: white;
 }
+.link_button:hover{
+    color: black;
+    border: 1px solid black;
+}
 
 .biography{
     background-image: url("../images/biography-bg.png");
@@ -47,4 +56,82 @@ p{
 
 #pp2{
     padding-left: 15%;
+}
+.latest-work{
+    padding-left: 60px;
+}
+.work-heading{
+    text-align: center;
+   padding-bottom: 20px;
+}
+.work-box{
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    
+    
+}
+.work-box img{
+    width: 100%;
+    transition: transform .2s;
+}
+.work-box img:hover{
+    transform: scale(1.5);
+}
+.client-testimonial{
+    padding-bottom: 150px;
+}
+.client-testimonial{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-bottom: 70px;
+}
+.client-descript{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.client-descript h2{
+   font-size: 26px;
+   padding-bottom: 25px;
+}
+
+
+.client-descript h4{
+    margin: 0px;
+    font-size: 22px;
+}
+
+.client-descript p{
+    text-align: center;
+    display: block;
+    width: 40%;
+    margin-left: 380px;
+}
+
+
+.message{
+    text-align: center;
+    background-color: #EC4C7A;
+    width: 40%;
+    padding: 20px 35px;
+    margin-left: 350px;
+    border-radius: 10px;
+   
+}
+.message p{
+    color: white;
+}
+.message span{
+  font-size: 30px;
+  font-weight: 500;
+}
+footer{
+    background-color: #F7F8FD;
+    padding:2px 30px;
+}
+footer p{
+    text-align: right;
+    font-size: 14px;
+    color: dimgray;
 }
